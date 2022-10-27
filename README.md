@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Interactive rating component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
@@ -92,3 +93,7 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# interative-rating-codingdojo-dx
+Desafio realizado na agenda Coding Dojo DX
+>>>>>>> 552b422dbe67f88089f552283545793e2a8b1575
