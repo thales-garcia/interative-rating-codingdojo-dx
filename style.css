@@ -40,9 +40,20 @@
     padding: 30px;
  }
 
+ .rating-box .background-star{
+   background: var(--Button-BackGround);
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-bottom: 20px;
+ }
+
  .rating-box img{
-    margin: 5px 50px 30px 10px;
-    width: 18px;
+   margin: 5px 50px 30px 10px;
+   width: 17px;
+   position: relative;
+   top: 6px;
+   left: 2px;
  }
 
  .rating-box h1{
@@ -51,13 +62,13 @@
  }
 
  .rating-box p{
-    font-size: 15px;
+    font-size: 13px;
     color: var(--Light-Grey);
     line-height: 25px;
  }
 
  .rating-box ul{
-    margin: 30px 0px 30px 0px;
+    margin: 20px 0px 25px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -112,6 +123,11 @@
    justify-content: center;
    align-items: center;
  }
+
+ .invisible{
+   display: none!important;
+ }
+
 
  .thankyou-box img{
    position: relative;

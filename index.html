@@ -9,8 +9,8 @@
 </head>
 <body>
   <main style="display: flex; flex-direction: column;">
-    <section class="rating-box" style="margin-bottom: 50px;">
-      <img src="./images/icon-star.svg" alt="star-image">
+    <section class="rating-box">
+      <span class="background-star"><img src="./images/icon-star.svg" alt="star-image"></span>
       <h1 class="rating-title">
         How did we do?
       </h1>
@@ -26,11 +26,11 @@
         <li><button class="btn-rate">5</button></li>
       </ul>
     
-      <button type="submit">SUBMIT</button>
+      <button type="submit" id="submit-rating">SUBMIT</button>
     </section>
-    <section class="thankyou-box">   
+    <section class="thankyou-box invisible">   
       <img src="./images/illustration-thank-you.svg" alt="thank-you-image">
-      <div class="selected-rating">You selected <span id></span> out of 5</div>
+      <div class="selected-rating">You selected <span id="rating-value"></span> out of 5</div>
       <h1>Thank you!</h1>
       <p>We appreciate you taking the time to give a rating. If you ever need more support, 
         don't hesitate to get in touch!</p>
